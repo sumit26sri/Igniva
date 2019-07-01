@@ -1,0 +1,299 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto Slab', serif;
+}
+.header{
+    width: 100%;
+    background-color: #722b78;
+    position: absolute;
+    height: 70px;
+}
+.header div{
+    width: 100%;
+    background-color: lightgray;
+    position:absolute;
+    height: 38px;
+    margin-top: 70px;
+}
+
+.container{
+    
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+}
+.container img{
+    margin-top: 15px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Menu li{
+    position: relative;
+    list-style:none;
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 14px; 
+   
+ 
+
+}
+.Menu a{
+    list-style: none;
+    text-decoration: none;
+    padding-left:10px; 
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    color: black;
+}
+a:hover{
+    color: white;
+    background-color: orange;
+}
+.engage span{
+    font-size: 24px;
+    font-weight: 700;
+    color: #7a3f75;
+}
+.engage{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.flex-container{
+    display: flex;
+    align-items: stretch;
+    background-color: white;
+    padding-right: 20px;
+    flex-wrap: wrap;
+
+
+}
+.flex-container  div {
+    
+    color:#777;
+    font-weight: bold;
+    width: 100px;
+   
+    text-align: left;
+    
+    font-size: 16px;
+   
+  }
+  .flex-container div p:nth-child(1){
+      margin-top: 10px;
+  }
+  .flex-container span{
+     font-size: 16px;
+     font-weight: 700;
+     color: #7a3f75;
+     float:right;
+     margin-right: 50px;
+     
+  }
+ 
+  .flex-container p{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .size{
+      margin-left: 15px;
+      margin-right: 15px;
+      
+  }
+.flex-container2{
+    margin-top: 15px;
+    display:flex;
+    flex-wrap: wrap;
+      
+}
+.flex-container2 sup{
+    color: red;
+    font-size: 20px;
+}
+
+.flex-container2 > div {
+  
+    color:black;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+   height:auto;
+  }
+  /* 
+  .flex-containe3{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 150px;
+  }
+  .flex-container3 > div {
+    background-color: red;
+    color: white;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    flex-direction: row;
+
+  } */
+
+.inside {
+    display: flex;
+   
+    flex-wrap: wrap;
+
+   
+}
+.inside div{
+    background-color:lightgray;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+ 
+    font-size: 16px;
+}
+.violet{
+    background-color: #722b78;
+}
+.touch p{
+    font-size: 16px;
+    color: white;
+}
+.touch{
+    margin: 15px;
+}
+.touch p:nth-child(2){
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 6px 6px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+   
+}
+input[type=submit]{
+    background-color: orange;
+    text-align: center;
+    padding: 4px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.touch span{
+    color: white;
+}
+
+
+
+/*
+---------------  INSIDE BOX DECLARATION -------------------
+*/
+
+.inside p{
+    font-size: 16px;
+    text-align: left;
+    margin: 10px;
+}
+.inside p:nth-child(2){
+    font-size: 14px;
+    text-align: left;
+    margin: 10px;
+}
+.inside img{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.inside p:nth-child(3){
+    font-size: 14px;
+    text-align: left;
+    margin: 10px;
+}
+.inside p:nth-child(4){
+    font-size: 14px;
+    text-align: left;
+    margin: 10px;
+}
+.inside p:nth-child(5){
+    font-size: 14px;
+    text-align: left;
+    margin: 10px;
+}
+.inside p:nth-child(5){
+    font-size: 14px;
+    text-align: left;
+    margin: 10px;
+}
+.button{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:#d07312;
+    border: none;
+    color: white;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+/*
+------------------Footer Class-----------------
+*/
+.footer{
+    border-top: solid grey 1px;
+}
+.foot li{
+    position: relative;
+    list-style:none;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px; 
+    border-right: 1px solid grey;
+
+}
+
+.foot a:hover
+
+{
+    color: red;
+    background-color: white;
+  
+}
+.foot a{
+    list-style: none;
+    text-decoration: none;
+    padding-left:10px; 
+    padding-right: 45px;
+    padding-top: 1px;
+    padding-bottom: 9px;
+    color: black;
+}
+.footerContain{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+  
+}
+
